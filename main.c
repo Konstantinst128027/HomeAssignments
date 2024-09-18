@@ -1,3 +1,6 @@
+/*Berezkin Konstantin Evgenievich
+project1 kostaberezkin403@gmail.com*/
+
 #include <iostream>
 #include <string>
 #include "hello_world.h"
