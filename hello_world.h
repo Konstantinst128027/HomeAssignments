@@ -2,8 +2,8 @@
 project1 kostaberezkin403@gmail.com*/
 #include<string>
 using namespace std;
-#ifndef HI_H
-#define HI_H
+#ifndef HELLO_WORLD_H
+#define HELLO_WORLD_H
 
-void hi(string x);
+void hello_world(string x);
 #endif

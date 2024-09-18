@@ -7,7 +7,7 @@ project1 kostaberezkin403@gmail.com*/
 using namespace std;
 int main(){
       string a;
-      hello_world("world");
+      hello_world("World");
       while(true)   {
            cin>>a;
            if(a != "0"){

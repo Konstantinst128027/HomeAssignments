@@ -5,4 +5,4 @@ hello_world.o: hello_world.c
 main.o: main.c
 	g++ -c main.c
 clean:
-	rm-rf *.o proga1 
+	rm -rf *.o proga1 
