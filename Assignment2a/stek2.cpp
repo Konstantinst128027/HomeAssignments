@@ -1,3 +1,5 @@
+/* Berezkin Konstantin Evgenievich
+./DZ2A st128027@student.spbu.ru*/
 #include <iostream>
 void reverseArray(char arr[], int  size) 
     {    
