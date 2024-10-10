@@ -13,7 +13,7 @@ int main()
             std::cout << "Error" << std::endl;
             return 1;
         }
-    int amounts_char = std::filesystem::file_size("outfile.txt");
+    int amounts_char = std::filesystem::file_size("infile.txt");
     char * massive = new char[amounts_char];
     infile.read(massive,amounts_char);
     reverseArray(massive,amounts_char);
