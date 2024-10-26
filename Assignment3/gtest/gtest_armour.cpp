@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "armour.h"
+#include "/home/konstbrat/Рабочий стол/main/Assignment3/armour.h"
 
 TEST(Armour, get_armour_name) 
 {

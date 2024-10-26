@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "weapon.h"
+#include "/home/konstbrat/Рабочий стол/main/Assignment3/weapon.h"
 
 TEST(Weapon, get_weapon_name) 
 {

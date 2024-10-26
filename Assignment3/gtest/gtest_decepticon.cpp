@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "decepticon.h"
+#include "/home/konstbrat/Рабочий стол/main/Assignment3/decepticon.h"
 
 TEST(Decepticon, get_color_eyes) 
 {
@@ -11,12 +11,12 @@ TEST(Decepticon, get_color_eyes)
 TEST(Decepticon, get_wing_length) 
 {
     Decepticon decepticon("Megatron",100);
-    EXPECT_EQ(decepticon.get_wing_length(),30);
+    EXPECT_EQ(decepticon.get_wing_length(),120);
 }
 TEST(Decepticon, set_wing_length) 
 {
     Decepticon decepticon("Megatron",100);
-    EXPECT_EQ(decepticon.get_wing_length(),30);
+    EXPECT_EQ(decepticon.get_wing_length(),120);
     decepticon.set_wing_length(25);
     EXPECT_EQ(decepticon.get_wing_length(),25);
 }

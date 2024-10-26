@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "Autobot.h"
+#include "/home/konstbrat/Рабочий стол/main/Assignment3/Autobot.h"
 
 TEST(Autobot, get_motto) 
 {
