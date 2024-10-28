@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "/home/konstbrat/Рабочий стол/main/Assignment3/decepticon.h"
+#include "decepticon.h"
 
 TEST(Decepticon, get_color_eyes) 
 {

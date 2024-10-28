@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "/home/konstbrat/Рабочий стол/main/Assignment3/transformer.h"
+#include "transformer.h"
 
 TEST(Transformer, get_name) 
 {

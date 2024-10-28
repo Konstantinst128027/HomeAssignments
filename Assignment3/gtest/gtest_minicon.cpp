@@ -1,7 +1,7 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
 #include "gtest/gtest.h"
-#include "/home/konstbrat/Рабочий стол/main/Assignment3/minicon.h"
+#include "minicon.h"
 
 TEST(Minicon, get_energy) 
 {
