@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "transformer.h"
+#include "gtest/transformer.h"
    
 Transformer::Transformer(std::string name, uint age) : _name(name), _age(age), _is_transformation(false), _health(100), _armour(new Armour("default armour")), _weapon(new Weapon("Default weapon")) {}
 

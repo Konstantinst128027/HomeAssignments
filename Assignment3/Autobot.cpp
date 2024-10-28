@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "Autobot.h"
+#include "gtest/Autobot.h"
 
 Autobot::Autobot(std::string name,uint age,std::string motto) : Transformer(name, age),_motto(motto), _have_a_matrix_of_leadership(true) {}
 

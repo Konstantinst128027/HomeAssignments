@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "minicon.h"
+#include "gtest/minicon.h"
 
 Minicon::Minicon(std::string name,uint age) : Transformer(name, age),_energy(300), _hight(200) {}
 

@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "transformer.h"
+#include "gtest/transformer.h"
 #include "gtest/gtest.h"
 int main() {
     ::testing::InitGoogleTest();

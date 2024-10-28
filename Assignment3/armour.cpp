@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "armour.h"
+#include "gtest/armour.h"
 
 Armour::Armour(std::string name) : _armour_name(name), _strenght(100) {}
 std::string Armour::get_armour_name() 

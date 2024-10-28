@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "decepticon.h"
+#include "gtest/decepticon.h"
 
 Decepticon::Decepticon(std::string name,uint age) : Transformer(name, age), _color_eyes("red"), _wing_length(120) {}
 std::string Decepticon::get_color_eyes()

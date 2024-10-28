@@ -1,6 +1,6 @@
 /* Berezkin Konstantin Evgenievich
 ./assignment3 st128027@student.spbu.ru*/
-#include "weapon.h"
+#include "gtest/weapon.h"
 Weapon::Weapon(std::string name) : _weapon_name(name), _weapon_number_patrons(25) {}
 
 uint Weapon::get_weapon_number_patrons()
