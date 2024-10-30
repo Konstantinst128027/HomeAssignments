@@ -8,4 +8,4 @@ I have made a class hierarchy "Transformers" with three inherited classes
 ##Build
 make
 ##Run
-./assignment3 or ./tests
+./assignment3
