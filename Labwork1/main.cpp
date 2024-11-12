@@ -166,8 +166,7 @@ int main()
     {
         for (int y = -halfKernel; y <= halfKernel; ++y)
         {
-            kernel[x+halfKernel][y+halfKernel] = (1.0 / (2*M_PI*sigma*sigma)) *
-                                                 exp(-(x*x+y*y)/(2*sigma*sigma));
+            kernel[x+halfKernel][y+halfKernel] = (1.0 / (2*M_PI*sigma*sigma)) * exp(-(x*x+y*y)/(2*sigma*sigma));
             sum += kernel[x+halfKernel][y+halfKernel];
         }
     }
@@ -197,9 +196,9 @@ int main()
                     int pixelY=std::min(std::max(y+ky,0),height-1);
                     int pixelX=std::min(std::max(x+kx,0),width-1);
 
-                    blueSum += rotatedclockpixels[(pixelY*width+pixelX)*3]*kernel[ky+halfKernel][kx+halfKernel];
-                    greenSum += rotatedclockpixels[(pixelY*width+pixelX)*3+1]*kernel[ky+halfKernel][kx+halfKernel];
-                    redSum += rotatedclockpixels[(pixelY*width+pixelX)*3+2]*kernel[ky+halfKernel][kx+halfKernel];
+                    blueSum += rotatedclockpixels[(pixelY*newdibheader.width+pixelX)*3]*kernel[ky+halfKernel][kx+halfKernel];
+                    greenSum += rotatedclockpixels[(pixelY*newdibheader.width+pixelX)*3+1]*kernel[ky+halfKernel][kx+halfKernel];
+                    redSum += rotatedclockpixels[(pixelY*newdibheader.width+pixelX)*3+2]*kernel[ky+halfKernel][kx+halfKernel];
                 }
             }
 
