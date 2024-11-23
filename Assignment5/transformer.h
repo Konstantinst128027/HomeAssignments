@@ -1,5 +1,5 @@
 /* Berezkin Konstantin Evgenievich
-./assignment4 st128027@student.spbu.ru*/
+./assignment5 st128027@student.spbu.ru*/
 #ifndef TRANSFORMER_H
 #define TRANSFORMER_H
 
@@ -22,7 +22,7 @@ public:
     Transformer();
     Transformer(std::string name);
     Transformer(std::string name, uint age);
-    ~Transformer();
+    virtual ~Transformer();
 
     std::string get_name();
     void set_name(std::string name);
@@ -42,6 +42,9 @@ public:
 
     bool _IS_TRANFORMATION();
     bool Defende();
+    virtual void transform();
+    virtual void openFire();
+    virtual void ulta();
 
 };
 #endif
