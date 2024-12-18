@@ -3,6 +3,8 @@
 #ifndef BMP_HEADERS_H
 #define BMP_HEADERS_H
 
+#include <cstdint>
+
 
 #pragma pack(push, 1)
 struct BMPHeader
